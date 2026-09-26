@@ -1,7 +1,6 @@
 aid: autonomize-ai
 name: Autonomize AI
-description: 'Autonomize AI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Autonomize AI provides an AI-native platform that enables healthcare enterprises to achieve autonomous operations. By embedding artificial intelligence directly into clinical workflows, the platform automates prior authorizations, appeals, and case preparation, dramatically reducing processing times and improving audit traceability. Recognized as a 2026 Technology Pioneer by the World Economic Forum, Autonomize AI delivers trusted, context-aware decision support, empowering providers to deliver faster, more accurate patient care while maintaining compliance and operational efficiency.'
 url: https://raw.githubusercontent.com/api-evangelist/autonomize-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-26'
 modified: '2026-09-26'
 tags:
 - Company
+- AI
+- Healthcare
+- Automation
+- Autonomy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,9 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/autonomize-ai-trust-center.yml
+- type: DomainSecurity
+  url: security/autonomize-ai-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://autonomize.ai
